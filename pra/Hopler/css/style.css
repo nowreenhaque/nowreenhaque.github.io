@@ -1,0 +1,455 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.title {
+    text-decoration: none;
+    color:black;
+    font-size:30px;
+    list-style: none;
+   font-weight: 500;
+   text-transform: uppercase;
+}
+
+.title:hover{
+    color:black;
+}
+.mynav{
+    border-bottom:4px solid whitesmoke;
+  
+}
+.nav-bg{
+background:url(../img/1.jpg) no-repeat;
+background-size: cover;
+height:700px;
+}
+
+
+.my-menu li {
+    position: relative;
+}
+.my-menu li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+    font-weight: 500;
+    transition :all .6s ease-in-out;
+    font-size:20px;
+    
+}
+
+
+.my-menu li ul{
+    position: absolute;
+    width:250px;
+    left:0;
+    top:190%;
+    background:#fafafa;
+    list-style: none;
+    padding:10px;
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.1);
+    opacity:0;
+    visibility: hidden;
+    transition :all .6s ease-in-out;
+}
+.my-menu li:hover ul{
+visibility: visible;
+opacity:1;
+top:150%;
+
+}
+.my-menu li a:hover{
+    color:red;
+}
+
+.level{
+    margin-top:100px;
+}
+
+.level h1{
+    text-align:center;
+    font-weight:bold;
+    padding:10px;
+    color:blue;
+
+}
+
+.level h5{
+    text-align:center;
+    font-weight:bold;
+    padding:10px;
+    color:blue;
+}
+.level h6{
+    text-align:center;
+    padding:10px;
+    color:white;
+
+}
+
+.btn-primary{
+    background:red !important;
+    border-color:black;
+    padding:10px 30px;
+    font-size:16px;
+    position: relative;
+    left:30%;
+     
+     margin-top:30px;
+    width:40%;
+    display:inline-block;
+    box-sizing: border-box;
+    outline: none;
+    margin-bottom:30px;
+}
+
+.btn-primary:hover{
+    background:whitesmoke;
+  
+  
+
+} 
+
+ .btn-primary::after{
+   content:"";
+   position: absolute;
+   left:0;
+   top:0;
+   width:0;
+   height:100%; 
+    background-color:white;
+   border-color:black;
+   color:black; 
+   opacity:0.30; 
+    /* z-index:-1;
+   transition:.9s;
+   transition-timing-function: ease;  */
+    } 
+
+ .btn-primary:hover::after{
+    width:100%;
+} 
+
+/* section1 */
+.section1{
+   
+}
+.pic{
+    /* box-shadow: 5px 10px;
+    border: 1px solid grey;
+    padding: 10px;
+    box-sizing: border-box; */
+
+    margin-top:50px;
+    margin-bottom:40px;
+    padding: 3px;
+} 
+
+.pic:hover{
+    box-shadow: 5px 10px;
+    border: 1px solid grey;
+ 
+    box-sizing: border-box;
+    transition:1s;
+    display:block;
+
+}
+.pic i{
+    position: relative;
+    left:45%;
+    font-size:60px;
+    margin-bottom:35px;
+    
+} 
+.pic i:hover{
+    color:red;
+    transition:1s;
+    transition-timing-function: ease;
+}
+.pic h5{
+  text-align: center; 
+  font-weight:700;
+  text-transform: uppercase; 
+} 
+.pic p{
+    text-align: center;     
+} 
+
+/* section2 */
+.section2{
+    background:url(../img/2.jpg) no-repeat;
+    background-size: cover;
+    height:100%;
+    /* position: relative;; */
+   
+}
+.section2 h2{
+    text-align:center;
+    font-weight: 200;
+    color:black;
+    /* margin-top:30px; */
+    text-transform: uppercase;
+
+}
+
+.section2 h4{
+    text-align:justify;
+    font-weight:800;
+    margin-top:50px;
+    padding:40px;
+}
+.section2 p{
+    text-align:justify;
+}
+
+.section2 h5{
+    text-align:justify;
+    margin-top:60px;
+    padding-left:40px;
+    font-weight:800;
+    padding-bottom:20px;
+}
+.section2 iframe{
+    padding-left:40px;
+}
+
+/* .videocontainer{
+    position: absolute;;
+    top:20%;
+    left:57%;
+
+} */
+
+.videocontainer figcaption{
+    text-align:justify;
+    padding-left:40px;
+    padding-bottom:20px;
+
+}
+
+/* images */
+.images h2{
+    text-align:center;
+    font-weight: 200;
+    color:black;
+    margin-top:30px;
+    text-transform: uppercase;
+
+
+}
+.contain{ position: relative; }
+.contain img { display: block; opacity:1;}
+.contain .fa-eye 
+{ position: absolute; 
+    top:50%; 
+    left:35%;
+     opacity:0;
+    font-size:50px;
+color:white;}
+.contain .fa-eye:hover{
+    opacity:1;
+    
+}
+.contain img:hover{
+   opacity:0.75;
+   transition:1s;
+}
+
+
+/* section3 */
+
+.num{
+    font-size:32px;
+    padding:10px;
+    color:black;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.num sub{
+    font-size:10px;
+}
+.two{
+    background:black;
+    color:white;
+    text-align:center;
+}
+
+.three{
+
+}
+
+.section3 h5{
+    text-align:center;
+    color:black;
+    margin-top:10px;
+}
+/* icon */
+.icon{
+    background:url(../img/2.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding-bottom:40px;
+    padding-top:50px;
+  
+
+}
+.icon i{
+    font-size:50px;
+    color:red;
+    margin-bottom:20px;
+    margin-top:30px;
+    position: relative;
+    left:35%;
+
+}
+.icon h6{
+    text-align:center;
+    color:black;
+
+    text-transform: uppercase;
+    font-weight:bold;
+
+}
+.icon p{
+    text-align:center;
+    color:black;
+
+}
+
+/* section4 */
+
+.section4 h5{
+    text-align:center;
+    color:black;
+    margin-top:10px;
+    text-transform: uppercase;
+    font-weight: 700;
+   
+
+}
+
+.section4 img{
+    
+}
+.section4 h6{
+    text-align:center;
+    color:black;
+    text-transform: uppercase;
+    font-weight:600;
+    margin-top:20px;
+}
+.section4 p{
+    text-align:center;
+    color:black;
+   
+}
+.section4 ul{
+    text-decoration: none;
+    Text-align:center;
+  
+}
+.section4 li {
+    list-style:none;
+    color:black;
+}
+
+.section4 li a{
+    color:black;
+    padding:15px;
+    font-size:15px;
+
+    margin-left:0
+}
+.author{
+    background: url('../img/BK.jpg') no-repeat;
+    background-size: cover;
+    height:100%;
+    position: relative;
+    padding:80px;
+
+
+}
+.author h6{
+    text-align:center;
+    color:white;
+    text-transform: uppercase;
+    font-weight:600;
+  
+
+}
+.guest{
+    position: absolute;
+    left:47%;
+    top:5%;
+    margin-top:40px;
+}
+.guest img{
+    border-radius:50%;
+    width:40%;
+}
+
+.author p{
+    color:white;
+    font-size:20px;
+    text-align:center;
+    margin-top:30px;
+
+}
+.hel{
+    text-align: center;
+}
+
+
+
+/* footer */
+
+.footer{
+    background: gray;
+    padding:80px;
+}
+
+.footer h6{
+    text-align:justify;
+    color:white;
+    text-transform: uppercase;
+    font-weight: 800px;
+
+}
+.footer p{
+    text-align:justify;
+}
+
+
+.footer ul{
+    text-decoration: none;
+   float: left;
+  
+}
+.footer li {
+    list-style:none;
+    color:black;
+}
+
+.footer li a{
+    color:black;
+    padding:15px;
+    font-size:15px;
+
+    margin-left:0
+}
+
+.divider{
+    width:150px;
+    height:2px;
+    background:red;
+    margin: 0 auto;
+
+}
+
+
+
+
+
+
